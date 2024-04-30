@@ -2,6 +2,13 @@
   "name": "elliot",
   "version": "0.1.0",
   "private": true,
+  "author": "Thiago Luiz Gonçalves <rp.thiagoluiz@gmail.com> (https://github.com/RpThiagoluiz)",
+  "license": "MIT",
+  "engines": {
+      "node": ">=18.17.0",
+      "yarn": "please-use-npm",
+      "pnpm": "please-use-npm"
+  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
