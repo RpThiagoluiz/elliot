@@ -5,9 +5,9 @@
   "author": "Thiago Luiz Gonçalves <rp.thiagoluiz@gmail.com> (https://github.com/RpThiagoluiz)",
   "license": "MIT",
   "engines": {
-      "node": ">=18.17.0",
-      "yarn": "please-use-npm",
-      "pnpm": "please-use-npm"
+    "node": ">=18.17.0",
+    "yarn": "please-use-npm",
+    "pnpm": "please-use-npm"
   },
   "scripts": {
     "dev": "next dev",
@@ -16,18 +16,20 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@clerk/nextjs": "^5.0.4",
+    "lucide-react": "^0.376.0",
+    "next": "14.2.3",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.3"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "eslint": "^8",
+    "eslint-config-next": "14.2.3",
     "postcss": "^8",
     "tailwindcss": "^3.4.1",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.3"
+    "typescript": "^5"
   }
 }
